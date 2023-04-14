@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'BentonSans Book';
+    src: url('fonts/BentonSans-Book.woff2') format('woff2'),
+        url('fonts/BentonSans-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akshar';
+    src: url('fonts/Akshar-Regular.woff2') format('woff2'),
+        url('fonts/Akshar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.box3 {
+    display: flex;
+    width: 375px;
+    gap: 10px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,.3);
+    border-radius: 12px 12px 0px 0px;
+    padding-right: 15px;
+    max-height: 144px;margin: auto;
+}
+.box3 .img-box3 {
+    position: relative;
+}
+.box3 .img-box3:before {
+	position:absolute;
+	content:'';
+	width: 73px;
+	height: 29px;
+	background: url(images/vector.png) top center no-repeat;
+	top: 20px;
+}
+.box3 .img-box3:after {
+	position:absolute;
+	content:'';
+	width: 4px;
+	height: 5px;
+	background: url(images/vector-1.png) top center no-repeat;
+	top: 49px;
+	left: 0;
+}
+.box3 .txt-box3 {
+	
+position: relative;
+}
+.box3 .txt-box3 .icon {
+	
+position: absolute;
+	
+width: 15px;
+	
+height: 24px;
+	
+right: 0px;
+	
+top: 15px;
+	
+background: url(images/Exclude.png) top center no-repeat;
+}
+.box3 h5.title-img {
+    font-size: 16px;
+    color: #000;
+    font-family: 'BentonSans Book';
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    margin-top: 8px;
+}
+.box3 .img-box3 img {border-top-right-radius: 12px;border-bottom-right-radius: 12px;}
+.box3 p.text-box1 {
+    color: #6D6968;
+    font-size: 10px;
+    font-family: 'BentonSans Book';
+    margin-block: 5px 5px;
+}
+
+.blocks {
+	
+display: flex;
+	
+gap: 15px;
+}
+.blocks button {
+	
+line-height: 20px;
+    border-radius: 3px;
+    border: 0;
+    background: linear-gradient(to bottom, #71D9E2 0%, #60BCB2 100%);
+    width: 68px;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'BentonSans Book';
+}
